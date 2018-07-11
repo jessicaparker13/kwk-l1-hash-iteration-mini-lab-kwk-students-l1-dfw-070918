@@ -25,6 +25,7 @@ def iterate_through_hash
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
   summer_olympics.each do |x, y|
     puts "The #{x} summer olympics took place in #{y}."
+  end 
 end
 
 def iterate_through_keys
