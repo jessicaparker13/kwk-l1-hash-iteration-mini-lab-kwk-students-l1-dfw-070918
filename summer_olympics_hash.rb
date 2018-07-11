@@ -30,7 +30,6 @@ def iterate_through_hash
     :Beijing => "2008",
     :London => "2012"
   }
-  summer_olympics.upcase 
   summer_olympics.each do |x, y|
     puts "The #{x} summer olympics took place in #{y}."
   end 
